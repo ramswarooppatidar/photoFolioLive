@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #f3d550; */
+    
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+.navbar {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 5%, rgba(33,77,172,1) 100%, rgba(0,212,255,1) 100%, rgba(195,29,105,1) 100%);
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+    padding: 10px 20px; /* Adjust padding as needed */
+
   }
-  to {
-    transform: rotate(360deg);
+  
+  .logo {
+    display: flex;
+    align-items: center;
   }
-}
+  
+  .logo img {
+    width: 50px; /* Adjust the width of the image as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Adjust margin as needed */
+  }
+  
+  .logo h3 {
+    color: #fafdfc; /* Change the text color as needed */
+    margin: 0; /* Remove default margin */
+    font-family: "Lato", sans-serif;
+    /* transition: color 0.3s;font-size :0.3s; */
+  }
+  .logo h3:hover{
+    color: #e3bc0e;
+    font-size : 1.4rem;
+  }
+  

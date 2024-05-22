@@ -1,0 +1,44 @@
+
+.formContainer{
+    border-radius: 1.2rem;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(205,168,161,0.87718837535014) 100%, rgba(0,212,255,1) 100%, rgba(195,29,105,1) 100%);
+}
+.form input{
+    width :24rem;
+    height: 2.9rem;
+    margin: 30px;
+    border-radius: 1rem;
+    font-size:1.3rem;
+    padding: 1rem;
+}
+.form button{
+    font-size: 1.4rem;
+    width:9rem;
+    height: 2.3rem;
+    margin: 10px;
+    border-radius: 0.5rem;
+    background-color: blue;
+    color: aliceblue;
+}
+h1{
+    margin-left: 1.3rem;
+    margin-top: 1.3rem;
+    color: rgb(195, 191, 191);
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+    .formContainer {
+        width: 90%;
+    }
+
+    .form input,
+    .form button {
+        margin: 5px; 
+    }
+}

@@ -1,0 +1,47 @@
+.imageFormContainer{
+    width: 50%;
+    background: rgb(166,103,167);
+    background: linear-gradient(0deg, rgb(123, 111, 123) 0%, rgb(127, 139, 231) 100%);
+    display: flex;
+    /* flex-wrap: col; */
+    flex-direction: column;
+    margin:0 auto;
+    margin-top: 3rem;
+    border-radius: 1.2rem;
+    justify-content: center;
+    /* align-items: center */
+
+}
+.inputField{
+    height: 2.3rem;
+    font-size: 1.2rem;
+    border-radius: 0.6rem;
+    color: gray;
+    margin:0.7rem;
+    width: 85%;
+    padding:1rem
+}
+.imageFormContainer button{
+    font-size: 1.4rem;
+    width:6rem;
+    height: 2.3rem;
+    margin: 10px;
+    border-radius: 0.5rem;
+    background-color: rgb(7, 194, 44);
+    color: aliceblue;    
+}
+.imageFormContainer h1{
+  color: rgb(105, 1, 1);
+}
+
+
+
+
+
+
+
+
+
+/* css for both mobile adn desktop */
+
+
