@@ -50,7 +50,7 @@ const ImageForm=({album, updateAlbumImagesArray})=>{
                 ref ={imageUrlInputRef}
                 />
             </div>
-            <div>
+            <div className={styles.buttonContainer}>
                 <button>
                     clear
                 </button>
